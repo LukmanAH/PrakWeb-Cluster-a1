@@ -1,2 +1,3 @@
 <?php
-echo "hello word";
+echo "hello girl";
+echo "what's your name??";
