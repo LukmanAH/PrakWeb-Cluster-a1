@@ -14,7 +14,7 @@
     }
 
     header {
-      background: grey;
+      background-image: url('gambar/img2.jpg');
       /*height: 50px;*/
 
       width: 784px;
@@ -38,6 +38,31 @@
       text-align: center;
     }
 
+    .vertikal ul {
+      list-style-type: none;
+      border: 1px solid black;
+      width: 200px;
+      margin: 0;
+      padding: 0;
+      font-family: arial;
+      font-size: 16px;
+      font-weight: bold;
+      background-color: crimson;
+    }
+
+    .vertikal ul li a {
+      display: block;
+      color: white;
+      margin: 5px 7px;
+      text-decoration: none;
+      border-bottom: 1px solid black;
+      padding: 5px;
+    }
+
+    .vertikal ul li a:hover {
+      background-color: orange;
+    }
+
     article {
       background: red;
       float: left;
@@ -58,17 +83,21 @@
 <body>
   <div class="wrap">
     <header>
-      <br><br><br><br>
-      <h2>BAGIAN HEADER (WIDTH : 784PX, HEIGHT: 200PX)</h2>
+
     </header>
 
     <div class="container">
 
       <aside>
-        <H3>KOLOM 1<br>
-          AUTO HEIGHT <br>
-          WIDTH : 200PX <br></H3>
-
+        <nav class=”vertikal”>
+          <ul>
+            <li><a href=”#”>Islam</a></li>
+            <li><a href=”#”>Ekonomi</a></li>
+            <li><a href=”#”>Kesehatan</a></li>
+            <li><a href=”#”>Motivasi</a></li>
+            <li><a href=”#”>Travelling</a></li>
+          </ul>
+        </nav>
       </aside>
 
       <article>
@@ -81,7 +110,7 @@
     <div class="clear"></div>
     <footer>
       <br>
-      <h3>FOOTER WIDTH: 784PX, HEIGHT: 100PX</h3>
+      <h3>@M. Lukman Al Hakim 118140103 </h3>
     </footer>
   </div>
 </body>
