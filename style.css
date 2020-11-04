@@ -7,8 +7,6 @@
 
 header {
   background-image: url('gambar/img2.jpg');
-  /*height: 50px;*/
-
   width: 784px;
   height: 200px;
   text-align: center;
@@ -30,6 +28,32 @@ header {
 	list-style-type: none;
 	padding: 10px;
 }
+
+.N2 ul{
+list-style-type: none;
+border: 1px solid black;
+width: 200px;
+margin: 0;
+padding: 0;
+font-family: arial;
+font-size: 16px;
+font-weight: bold;
+background-color: crimson;
+}
+
+.N2 ul li a{
+display: block;
+color: white;
+margin: 5px 7px;
+text-decoration: none;
+border-bottom: 1px solid black;
+padding: 43.53px;
+}
+
+.N2 ul li a:hover{
+background-color: orange;
+}
+
 .clear {
   clear: both;
 }
@@ -53,8 +77,6 @@ article {
   width: 584px;
   text-align: center;
 }
-
-
 
 .kalkulator{
 	width: 300px;
@@ -95,8 +117,9 @@ article {
  
 section{
 	padding-bottom: 200px  ;
-	margin: 10px;
+	margin: 20px;
 }
+
 .judul{
 	text-align: center;
 	color: #eee;

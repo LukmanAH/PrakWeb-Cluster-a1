@@ -4,25 +4,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Tugas Praktikum 1</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <div class="wrap">
     <header>
-
+    <h1>Hello, Everyone</h1>
     </header>
 
     <div class="container">
 
       <aside>
-        <div id="Side" class="sidenav">
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-          <a href="#">About</a>
-          <a href="#">Portfolio</a>
-          <a href="#">Contact</a>
-        </div>
+        <nav class='N2'>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
 
 
       </aside>
