@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en"> 
-
+<!-- saya bingung dibagian konten,, jadi saya kasih kalku saja,, karna kalku memenuhi syarat sebagai konten dan form -->
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
