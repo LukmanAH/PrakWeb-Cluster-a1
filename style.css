@@ -14,6 +14,22 @@ header {
   text-align: center;
 }
 
+.N1{
+	background: yellow;
+}
+
+.N1 ul{
+	padding: 0;
+	margin: 0;
+	background: yellow;
+	overflow: hidden;
+}
+
+.N1 ul li{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+}
 .clear {
   clear: both;
 }
@@ -87,6 +103,7 @@ footer {
   background:black;
   width: 784px;
   height: 100px;
+  padding-top: 40px;
   text-align: center;
   color : blue
 }

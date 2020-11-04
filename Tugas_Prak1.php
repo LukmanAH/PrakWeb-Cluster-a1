@@ -78,7 +78,6 @@
     </div>
     <div class="clear"></div>
     <footer>
-      <br>
       <h3>@M. Lukman Al Hakim 118140103 </h3>
     </footer>
   </div>
