@@ -17,15 +17,14 @@
     <div class="container">
 
       <aside>
-        <nav class=”vertikal”>
-          <ul>
-            <li><a href=”#”>Islam</a></li>
-            <li><a href=”#”>Ekonomi</a></li>
-            <li><a href=”#”>Kesehatan</a></li>
-            <li><a href=”#”>Motivasi</a></li>
-            <li><a href=”#”>Travelling</a></li>
-          </ul>
-        </nav>
+        <div id="Side" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="#">About</a>
+          <a href="#">Portfolio</a>
+          <a href="#">Contact</a>
+        </div>
+
+
       </aside>
 
       <article>
@@ -47,16 +46,21 @@
             case '/':
               $hasil = $bil1 / $bil2;
               break;
+
+            default:
+              $hasil = "Pilih Operatornya dulu dong !!!";
+              break;
           }
         }
         ?>
         <div class="kalkulator">
-          <h2 class="judul">KALKULATOR</h2>
+          <h1 class="judul">KALKULATOR</h1>
 
           <form method="post" action="Tugas_Prak1.php">
             <input type="text" name="bil1" class="bil" autocomplete="off" placeholder="Masukkan Bilangan Pertama">
             <input type="text" name="bil2" class="bil" autocomplete="off" placeholder="Masukkan Bilangan Kedua">
             <select class="opt" name="operasi">
+              <option value="#">Pilih Operator</option>
               <option value="+">+</option>
               <option value="-">-</option>
               <option value="*">x</option>

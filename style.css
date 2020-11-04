@@ -23,7 +23,7 @@ header {
 }
 
 aside {
-  background: yellow;
+  background: #2d3436;
   float: left;
   width: 200px;
   height: 100%;
@@ -31,12 +31,14 @@ aside {
 }
 
 article {
-  background: red;
+  background:#636e72;
   float: left;
   height: 100%;
   width: 584px;
   text-align: center;
 }
+
+
 
 .kalkulator{
 	width: 300px;
@@ -78,12 +80,13 @@ article {
 .judul{
 	text-align: center;
 	color: #eee;
-	font-weight: normal;
+	font-weight: 800;
 }
 
 footer {
-  background: purple;
+  background:black;
   width: 784px;
   height: 100px;
   text-align: center;
+  color : blue
 }
