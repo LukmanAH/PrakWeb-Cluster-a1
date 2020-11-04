@@ -1,5 +1,5 @@
 .wrap {
-  background: blue;
+  background: #7f8c8d;
   width: 784px;
   margin: 10px auto;
   font-family: sans-serif;
@@ -47,7 +47,7 @@ color: white;
 margin: 5px 7px;
 text-decoration: none;
 border-bottom: 1px solid black;
-padding: 43.53px;
+padding: 43.55px;
 }
 
 .N2 ul li a:hover{
