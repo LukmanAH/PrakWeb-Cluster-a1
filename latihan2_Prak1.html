@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Latihan 2 Praktikum 1</title>
+
+</head>
+
+<body>
+  <h1>Biodata Mahasiswa</h1>
+ 
+  <form action='' method='post'>
+  Nama :<br> <input type='text' name='nama'><br>
+  
+  gender:<br> <input class="radio" type="radio" name="gender" id="cowo" >man<br>
+          <input class="radio" type="radio" name="gender" id="cewe" >women
+          <br>
+  Negara :<br> <select name="county" id="country">
+               <option value="indonesia">Pilih Negara</option>
+              <option value="indonesia">Indonesia</option>
+              <option value="amerika">Amerika</option>
+              <option value="perancis">Perancis</option> 
+              <option value="indonesia">Korea</option>
+              <option value="amerika">Jepang</option>
+              <option value="perancis">Afrika</option>
+          </select><br>
+  No. HP :<br> <input type='text' name='no_hp'><br>
+  Alamat :<br> <textarea rows='4' name='alamat'></textarea><br>
+  Foto :<br> <input type='file' name='foto' accept='image/*'><br>
+  Keahlian :<br> <input class='keahlian' type='checkbox' name='keahlian1'>MS.Ofice<br>
+            <br> <input class='keahlian' type='checkbox' name='keahlian2'>PHP<br>
+            <br> <input class='keahlian' type='checkbox' name='keahlian3'>C++<br>
+            <br> <input class='keahlian' type='checkbox' name='keahlian4'>Java<br>
+            <br> <input class='keahlian' type='checkbox' name='keahlian5'>Java Script<br>
+  <input type='submit' name='submit' class='btn btn-primary' value='Simpan'></form><br>
+</body>
+
+</html>
