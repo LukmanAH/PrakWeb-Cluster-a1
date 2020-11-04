@@ -5,79 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <style>
-    .wrap {
-      background: blue;
-      width: 784px;
-      margin: 10px auto;
-      font-family: sans-serif;
-    }
-
-    header {
-      background-image: url('gambar/img2.jpg');
-      /*height: 50px;*/
-
-      width: 784px;
-      height: 200px;
-      text-align: center;
-    }
-
-    .clear {
-      clear: both;
-    }
-
-    .container {
-      height: 450px;
-    }
-
-    aside {
-      background: yellow;
-      float: left;
-      width: 200px;
-      height: 100%;
-      text-align: center;
-    }
-
-    .vertikal ul {
-      list-style-type: none;
-      border: 1px solid black;
-      width: 200px;
-      margin: 0;
-      padding: 0;
-      font-family: arial;
-      font-size: 16px;
-      font-weight: bold;
-      background-color: crimson;
-    }
-
-    .vertikal ul li a {
-      display: block;
-      color: white;
-      margin: 5px 7px;
-      text-decoration: none;
-      border-bottom: 1px solid black;
-      padding: 5px;
-    }
-
-    .vertikal ul li a:hover {
-      background-color: orange;
-    }
-
-    article {
-      background: red;
-      float: left;
-      height: 100%;
-      width: 584px;
-      text-align: center;
-    }
-
-    footer {
-      background: purple;
-      width: 784px;
-      height: 100px;
-      text-align: center;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -101,10 +29,47 @@
       </aside>
 
       <article>
-        <h3> KOLOM 1<br>
-          AUTO HEIGHT <br>
-          WIDTH : 584PX <br>
-        </h3>
+        <?php
+        if (isset($_POST['hitung'])) {
+          $bil1 = $_POST['bil1'];
+          $bil2 = $_POST['bil2'];
+          $operasi = $_POST['operasi'];
+          switch ($operasi) {
+            case '+':
+              $hasil = $bil1 + $bil2;
+              break;
+            case '-':
+              $hasil = $bil1 - $bil2;
+              break;
+            case '*':
+              $hasil = $bil1 * $bil2;
+              break;
+            case '/':
+              $hasil = $bil1 / $bil2;
+              break;
+          }
+        }
+        ?>
+        <div class="kalkulator">
+          <h2 class="judul">KALKULATOR</h2>
+
+          <form method="post" action="Tugas_Prak1.php">
+            <input type="text" name="bil1" class="bil" autocomplete="off" placeholder="Masukkan Bilangan Pertama">
+            <input type="text" name="bil2" class="bil" autocomplete="off" placeholder="Masukkan Bilangan Kedua">
+            <select class="opt" name="operasi">
+              <option value="+">+</option>
+              <option value="-">-</option>
+              <option value="*">x</option>
+              <option value="/">/</option>
+            </select>
+            <input type="submit" name="hitung" value="Hitung" class="tombol">
+          </form>
+          <?php if (isset($_POST['hitung'])) { ?>
+            <input type="text" value="<?php echo $hasil; ?>" class="bil">
+          <?php } else { ?>
+            <input type="text" value="0" class="bil">
+          <?php } ?>
+        </div>
       </article>
     </div>
     <div class="clear"></div>

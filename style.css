@@ -1,0 +1,89 @@
+.wrap {
+  background: blue;
+  width: 784px;
+  margin: 10px auto;
+  font-family: sans-serif;
+}
+
+header {
+  background-image: url('gambar/img2.jpg');
+  /*height: 50px;*/
+
+  width: 784px;
+  height: 200px;
+  text-align: center;
+}
+
+.clear {
+  clear: both;
+}
+
+.container {
+  height: 450px;
+}
+
+aside {
+  background: yellow;
+  float: left;
+  width: 200px;
+  height: 100%;
+  text-align: center;
+}
+
+article {
+  background: red;
+  float: left;
+  height: 100%;
+  width: 584px;
+  text-align: center;
+}
+
+.kalkulator{
+	width: 300px;
+	margin: 30px auto;
+	padding: 10px 20px 50px 20px;
+	border-radius: 5px;
+}
+ 
+.bil{
+	width: 300px;
+	margin: 5px;
+	border: none;
+	font-size: 16pt;
+	border-radius: 5px;
+	padding: 10px;	
+}
+ 
+.opt{
+	font-size: 16pt;
+	border: none;
+	width: 215px;
+	margin: 5px;
+	border-radius: 5px;
+	padding: 10px;
+}
+ 
+.tombol{
+	background: #EC5159;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	color: #eee;
+	font-size: 15pt;
+	border-bottom:4px solid #BF3D3D;
+}
+ 
+.judul{
+	text-align: center;
+	color: #eee;
+	font-weight: normal;
+}
+
+footer {
+  background: purple;
+  width: 784px;
+  height: 100px;
+  text-align: center;
+}
