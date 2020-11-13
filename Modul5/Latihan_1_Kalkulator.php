@@ -43,9 +43,9 @@
     <div class="kalkulator">
       <h1 class="judul">KALKULATOR</h1>
 
-      <form method="post" action="anjeeng.php">
-        <input type="text" name="bil1" class="bil" autocomplete="off" placeholder="Masukkan Bilangan Pertama">
-        <input type="text" name="bil2" class="bil" autocomplete="off" placeholder="Masukkan Bilangan Kedua">
+      <form method="post" action="Latihan_1_Kalkulator.php">
+        <input type="number" name="bil1" class="bil" autocomplete="off" placeholder="Masukkan Bilangan Pertama">
+        <input type="number" name="bil2" class="bil" autocomplete="off" placeholder="Masukkan Bilangan Kedua">
         <select class="opt" name="operasi">
           <option value="#">Pilih Operator</option>
           <option value="+">+</option>

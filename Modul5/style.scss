@@ -1,98 +1,40 @@
-.wrap {
-  background: #7f8c8d;
-  width: 784px;
-  margin: 10px auto;
-  font-family: sans-serif;
+%shared-prop{
+  border: 1px solid #CCCCCC;
+  padding: 10px;
+  margin: 10px 10px 10px 0px;
+  font-size: 14px;
+  width: 1200px;
 }
 
-header {
-  background-image: url('gambar/img2.jpg');
-  width: 784px;
-  height: 200px;
-  text-align: center;
+input{
+  @extend %shared-prop;
 }
 
- input,
-    select,
-    textarea {
-      border: 1px solid #CCCCCC;
-      padding: 10px;
-      margin: 10px 10px 10px 0px;
-      font-size: 14px;
-      width: 1200px;
-    }
+select{
+  @extend %shared-prop;
+}
+textarea {
+  @extend %shared-prop;
+}
 
-     .radio, .keahlian{
+.radio, .keahlian{
        border: 1px solid #CCCCCC;
       padding: 5px;
       margin: 10px 0px 10px 0px;
       font-size: 14px;
       width: 50px;
-    }
-
-    input[type="submit"] {
-      width: 80px;
-      cursor: pointer;
-      background-color: blue;
-    }
-
-.N1{
-	background: yellow;
 }
 
-.N1 ul{
-	padding: 0;
-	margin: 0;
-	background: yellow;
-	overflow: hidden;
-}
-
-.N1 ul li{
-	float: left;
-	list-style-type: none;
-	padding: 10px;
-}
-
-.N2 ul{
-list-style-type: none;
-border: 1px solid black;
-width: 200px;
-margin: 0;
-padding: 0;
-font-family: arial;
-font-size: 16px;
-font-weight: bold;
-background-color: crimson;
-}
-
-.N2 ul li a{
-display: block;
-color: white;
-margin: 5px 7px;
-text-decoration: none;
-border-bottom: 1px solid black;
-padding: 43.55px;
-}
-
-.N2 ul li a:hover{
-background-color: orange;
+input[type="submit"] {
+    width: 80px;
+    cursor: pointer;
+    background-color: blue;
 }
 
 .clear {
   clear: both;
 }
 
-.container {
-  height: auto;
-}
-
-aside {
-  background: #2d3436;
-  float: left;
-  width: 200px;
-  height: 462px;
-  text-align: center;
-}
 
 article {
   background:#636e72;
@@ -128,7 +70,6 @@ article {
 }
  
 .tombol{
-	background: #EC5159;
 	border-top: none;
 	border-right: none;
 	border-left: none;
@@ -136,13 +77,8 @@ article {
 	padding: 10px 20px;
 	color: #eee;
 	font-size: 15pt;
-	border-bottom:4px solid #BF3D3D;
 }
  
-section{
-	padding-bottom: 200px  ;
-	margin: 20px;
-}
 
 .judul{
 	text-align: center;
