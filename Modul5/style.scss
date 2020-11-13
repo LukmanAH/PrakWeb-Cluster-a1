@@ -1,0 +1,160 @@
+.wrap {
+  background: #7f8c8d;
+  width: 784px;
+  margin: 10px auto;
+  font-family: sans-serif;
+}
+
+header {
+  background-image: url('gambar/img2.jpg');
+  width: 784px;
+  height: 200px;
+  text-align: center;
+}
+
+ input,
+    select,
+    textarea {
+      border: 1px solid #CCCCCC;
+      padding: 10px;
+      margin: 10px 10px 10px 0px;
+      font-size: 14px;
+      width: 1200px;
+    }
+
+     .radio, .keahlian{
+       border: 1px solid #CCCCCC;
+      padding: 5px;
+      margin: 10px 0px 10px 0px;
+      font-size: 14px;
+      width: 50px;
+    }
+
+    input[type="submit"] {
+      width: 80px;
+      cursor: pointer;
+      background-color: blue;
+    }
+
+.N1{
+	background: yellow;
+}
+
+.N1 ul{
+	padding: 0;
+	margin: 0;
+	background: yellow;
+	overflow: hidden;
+}
+
+.N1 ul li{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+}
+
+.N2 ul{
+list-style-type: none;
+border: 1px solid black;
+width: 200px;
+margin: 0;
+padding: 0;
+font-family: arial;
+font-size: 16px;
+font-weight: bold;
+background-color: crimson;
+}
+
+.N2 ul li a{
+display: block;
+color: white;
+margin: 5px 7px;
+text-decoration: none;
+border-bottom: 1px solid black;
+padding: 43.55px;
+}
+
+.N2 ul li a:hover{
+background-color: orange;
+}
+
+.clear {
+  clear: both;
+}
+
+.container {
+  height: auto;
+}
+
+aside {
+  background: #2d3436;
+  float: left;
+  width: 200px;
+  height: 462px;
+  text-align: center;
+}
+
+article {
+  background:#636e72;
+  float: left;
+  height: 100%;
+  width: 584px;
+  text-align: center;
+}
+
+.kalkulator{
+	width: 300px;
+	margin: 30px auto;
+	padding: 10px 20px 50px 20px;
+	border-radius: 5px;
+}
+ 
+.bil{
+	width: 300px;
+	margin: 5px;
+	border: none;
+	font-size: 16pt;
+	border-radius: 5px;
+	padding: 10px;	
+}
+ 
+.opt{
+	font-size: 16pt;
+	border: none;
+	width: 215px;
+	margin: 5px;
+	border-radius: 5px;
+	padding: 10px;
+}
+ 
+.tombol{
+	background: #EC5159;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	color: #eee;
+	font-size: 15pt;
+	border-bottom:4px solid #BF3D3D;
+}
+ 
+section{
+	padding-bottom: 200px  ;
+	margin: 20px;
+}
+
+.judul{
+	text-align: center;
+	color: #eee;
+	font-weight: 800;
+}
+
+footer {
+  background:black;
+  width: 784px;
+  height: 100px;
+  padding-top: 40px;
+  text-align: center;
+  color : blue
+}
