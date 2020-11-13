@@ -1,0 +1,53 @@
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar li {
+  float: right;
+  margin-right: 20px;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: rgb 95, 223, 255;
+}
+
+.sidebar {
+  float: left;
+  height: auto;
+  width: 300px;
+  background-color: #f1f1f1;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  width: 200px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.sidebar li a {
+  display: block;
+  color: #000;
+  padding: 10px 16px;
+  width: 250px;
+  text-decoration: none;
+}
+
+.sidebar li a:hover {
+  background-color: #555;
+  color: white;
+}
+/*# sourceMappingURL=variabel.css.map */

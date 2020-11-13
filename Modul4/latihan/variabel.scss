@@ -1,0 +1,65 @@
+$mycolour : rgb (95, 223, 255);
+$bgcolour:#333;
+$number1:20px;
+$align1:center;
+
+.navbar{
+
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: $bgcolour;
+    }
+
+    li {
+        float: right;
+        margin-right: $number1;;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: $align1;
+        padding: 14px $number1;
+        text-decoration: none;
+    }
+
+    li a:hover{
+        background-color: $mycolour;
+    }
+
+}
+
+.sidebar{
+    float: left;
+    height: auto;
+    width: 300px;
+    background-color: #f1f1f1;
+
+    ul{
+        list-style-type: none;
+        padding: 0;
+        width: 200px;
+        text-align: center;
+        background-color: #f1f1f1;
+    }
+
+    li{
+        a{
+            display: block;
+            color: #000;
+            padding: 10px 16px;
+            width: 250px;
+            text-decoration: none;
+        }
+    }
+
+    li{
+        a:hover{
+            background-color: #555;
+            color: white;
+        }
+    }
+}
