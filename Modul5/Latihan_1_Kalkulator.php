@@ -28,17 +28,16 @@
         $bagi = 0;
         $mod = 0;
       }
-    } else {
-      echo "kontol";
     }
+    
     ?>
     <div class="kalkulator">
       <h1 class="judul">KALKULATOR</h1>
 
       <form method="post" action="Latihan_1_Kalkulator.php">
         <input type="number" name="bil1" class="bil" autocomplete="on" placeholder="Masukkan Bilangan Pertama"><br>
-        <input type="number" name="bil2" class="bil" autocomplete="on" placeholder="Masukkan Bilangan Kedua">
-        <input type="submit" name="hitung" value="Hitung" class="tombol">
+        <input type="number" name="bil2" class="bil" autocomplete="on" placeholder="Masukkan Bilangan Kedua"><br>
+        <input type="submit" name="hitung" value="Hitung" class="tombol"><br>
       </form>
       <?php if (isset($_POST['hitung'])) { ?>
         <h2 class="judul">Hasil Dari Tiap Operasi :</h2>
@@ -48,11 +47,11 @@
         <input type="text" value="<?php echo "Pembagian (/)    :   " . $bagi; ?>" class="bil"><br>
         <input type="text" value="<?php echo "Modulo (%)       :   " .  $mod; ?>" class="bil"><br>
       <?php } else { ?>
-        <input type="text" value="0" class="bil">
-        <input type="text" value="0" class="bil">
-        <input type="text" value="0" class="bil">
-        <input type="text" value="0" class="bil">
-        <input type="text" value="0" class="bil">
+        <input type="text" value="0" class="bil"><br>
+        <input type="text" value="0" class="bil"><br>
+        <input type="text" value="0" class="bil"><br>
+        <input type="text" value="0" class="bil"><br>
+        <input type="text" value="0" class="bil"><br>
       <?php } ?>
     </div>
   </article>
