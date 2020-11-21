@@ -9,7 +9,7 @@
     <h2>DATA MAHASISWA PENS</h2>
     ====================================================
     <h2>TAMBAH DATA</h2>
-    <form action="tambah.php" method="post">
+    <form action="add.php" method="post">
     NRP     : <input type="text" name="nrp">
     <br>Nama    : <input type="text" name="nama">
     <br>alamat  : <input type="text" name="alamat">
@@ -28,13 +28,13 @@
     </form>
     ====================================================
     <h2>SEARCH DATA</h2>
-    <form action="cari.php"  method="POST">
+    <form action="search.php"  method="POST">
         <br>Nama : <input type="text" name="keycari">
         <input type="submit" name="cari" value="cari">
     </form>
     ====================================================
     <h2>HAPUS DATA</h2>
-    <form action="hapus.php">
+    <form action="delete.php">
         NRP : <input type="text" name="keyhapus">
         <input type="submit" name="hapus" value="Hapus">
     </form>
