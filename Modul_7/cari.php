@@ -10,5 +10,5 @@
                 echo "Id_Jurusan : "; echo $baris[3]; echo "<br><br>";
             }
 
-            echo "<a href='idx.php'><button>KEMBALI</button></a>";
+            echo "<a href='index.php'><button>KEMBALI</button></a>";
    ?>
