@@ -9,6 +9,6 @@
         echo '<script type="text/javascript">alert("Berhasil Input Data !!!!");
         </script>'; 
 
-        echo "<a href='idx.php'><button>KEMBALI</button></a>";
+        echo "<a href='index.php'><button>KEMBALI</button></a>";
 
    ?>
