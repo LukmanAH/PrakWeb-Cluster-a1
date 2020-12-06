@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<dataDiri>
+    <nama>
+        <awal>M Lukman</awal>
+        <akhir>Al Hakim</akhir>
+    </nama>
+    <saudara>
+        <pertama>Nisa Bela Addini</pertama>
+        <kedua>Abel</kedua>
+    </saudara>    
+    <jeniskelamin>Laki-laki</jenisKelamin>
+    <alamat>
+        <kabupaten>Pesawaran</kabupaten>
+        <provinsi>Lampung</provinsi>
+        <negara>Indonesia</negara>
+    </alamat>
+    <sosialMedia>
+        <github>lukmanah</github>
+    </sosialMedia>
+</dataDiri>

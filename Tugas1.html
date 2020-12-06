@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>118140103_tugas1</title>
+</head>
+
+<body>
+    <input type="text" name="new" id="new">
+    <button onclick="add()">Tambah</button>
+    <ul id="ul">
+        <li id="1">Talulah | <a onclick="edit('1')">Edit</a> | <a onclick="hapus(1)">Hapus</a></li>
+        <li id="2">Surtr | <a onclick="edit('2')">Edit</a> | <a onclick="hapus(2)">Hapus</a></li>
+        <li id="3">Rosmontis | <a onclick="edit('3')">Edit</a> | <a onclick="hapus(3)">Hapus</a></li>
+    </ul>
+</body>
+<script>
+    var i = 4;
+    function nedit(id = i) {
+        var edit = document.createElement("a");
+        edit.setAttribute("onclick", "edit(" + id + ")");
+        edit.append("Edit");
+        return edit;
+    }
+    function nerase(id = i) {
+        var edit = document.createElement("a");
+        edit.setAttribute("onclick", "hapus(" + id + ")");
+        edit.append("Hapus");
+        return edit;
+    }
+    function adchild(li, nama, id) {
+        li.append(nama + " | ");
+        li.append(nedit(id));
+        li.append(" | ");
+        li.append(nerase(id));
+    }
+    function add() {
+        var nama = document.getElementById("new").value;
+        var ul = document.getElementById("ul");
+        var newel = document.createElement("li");
+        newel.setAttribute("id", i);
+        adchild(newel, nama);
+        ul.append(newel);
+        i++;
+    }
+    function hapus(id) {
+        document.getElementById(id).remove();
+    }
+    function edit(id) {
+        var nama = prompt("Masukkan Nama Baru: ", document.getElementById(id).innerText.split(" | ")[0]);
+        if (nama != null) {
+            var li = document.getElementById(id);
+            li.innerHTML = "";
+            adchild(li, nama, id);
+        }
+    }
+</script>
+
+</html>

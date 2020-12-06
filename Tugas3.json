@@ -1,0 +1,23 @@
+{
+    "Nama": {
+        "awal": "M Lukman",
+        "akhir": "Al Hakim"
+    },
+    
+    "Saudara": {
+        "pertama": "Nisa Bella Addini",
+        "kedua": "Abel"
+    },
+
+    "jenisKelamin": "Laki-laki",
+
+    "alamat": {
+        "kabupaten": "Pesawaran",
+        "provinsi": "Lampung",
+        "negara": "Indonesia"
+    },
+    
+    "sosialMedia": {
+        "github": "lukmanah"
+    }
+}

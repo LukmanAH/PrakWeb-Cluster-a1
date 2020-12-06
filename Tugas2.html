@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>118140103_tugas2</title>
+</head>
+
+<body>
+    <input type="text" name="new" id="new">
+    <button onclick="add()">Tambah</button>
+    <ul id="ul" class="unordered">
+        <li id="1">Talulah | <a onclick="edit('1')">Edit</a> | <a onclick="hapus(1)">Hapus</a></li>
+        <li id="2">Surtr | <a onclick="edit('2')">Edit</a> | <a onclick="hapus(2)">Hapus</a></li>
+        <li id="3">Rosmontis | <a onclick="edit('3')">Edit</a> | <a onclick="hapus(3)">Hapus</a></li>
+    </ul>
+</body>
+<script>
+    console.log(document.getElementsByName("new").value);
+    console.log(document.getElementsByClassName("unordered"));
+    console.log(document.getElementsByTagNameNS("https://www.arknights.global/", li));
+    console.log(document.querySelector("button"));
+    console.log(document.querySelectorAll("li"));
+</script>
+
+</html>
